@@ -367,6 +367,9 @@ footer {
 .footer-logo {
     color:#ffffff
 }
+.copy {
+    text-align: center;
+}
 .copy p {
     color: #ffffff;
     text-align: center;
