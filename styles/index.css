@@ -37,6 +37,11 @@ nav {
     font-size: 16px;
     font-weight: 500;
 }
+/* Nav-Button-Section */
+.btn-1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
 nav .btn-1 {
     min-width: 164px;
     height: 44px;
@@ -45,7 +50,6 @@ nav .btn-1 {
     background-color: #30B868;
     font-size: 16px;
     font-weight: 600;
-    color: #ffffff;
     padding: 12px 16px;
 }
 .btn-1:hover {
@@ -122,6 +126,10 @@ nav .btn-1 {
     border: none;
     background-color: #30B868;
 }
+.btn-hero1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .btn-hero .btn-hero2{
     width: 251px;
@@ -133,6 +141,11 @@ nav .btn-1 {
     background-color: #ffffff00;
     
 }
+.btn-hero2 a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .btn-hero1:hover {
     background-color: #187940;
     box-shadow: 0 0 8px #ffffff;
