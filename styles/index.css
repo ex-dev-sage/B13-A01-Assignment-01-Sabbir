@@ -19,8 +19,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 120px;
+    padding-left: 120px;
+    padding-right: 120px;
     background-color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -71,7 +74,8 @@ nav .btn-1 {
 }
 
 .container .container-secondary {
-    max-width: 1360px;
+    width: 100%;
+    max-width: 1600px;
     padding: 70px 120px 134px 120px;
     text-align: center;
     box-sizing: border-box;
@@ -160,14 +164,18 @@ nav .btn-1 {
 #Card {
     text-align: center;
     background-color: #ffffff;
-    padding: 0 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #Card .card-container{
-    width: 84%;
-    max-width: 1630px;
+    width: 100%;
+    max-width: 1600px;
     height: 300px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 .card-heading h2{
     padding-top: 30px;
@@ -221,18 +229,22 @@ nav .btn-1 {
 /* Brain-Section */
 
 #brain-section {
-    margin: 120px;
+    width: 100%;
     text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+
 }
 .brain-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    /* gap: 60px; */
-    width: 90%;
-    max-width: 1500px;
+    gap: 120px;
+    max-width: 1600px;
+    width: 100%;
     margin: 0 auto;
-    padding: 120px 0;
 }
 .brain-main-img {
     width: 100%;
@@ -273,7 +285,7 @@ nav .btn-1 {
 }
 
 /* Content-Section */
-/* Center the container on the page */
+
 #content-box {
     display: flex;
     justify-content: center;
@@ -286,7 +298,7 @@ nav .btn-1 {
 
 .content-box-2 {
     background-color: #f5f4f0;
-    max-width: 1360px;
+    max-width: 1600px;
     width: 100%;
     padding: 80px 40px;
     text-align: center;
@@ -332,12 +344,16 @@ footer {
     padding-right: 120px;
     padding-bottom: 30px;
     background-color: #001931;
+    width: 100%;
+    box-sizing: border-box;
     
 }
 .footer-1 {
+    width: 100%;
+    max-width: 1600px;
     display: flex;
     justify-content: space-between;
-    /* gap: auto; */
+    box-sizing: border-box;
 }
 .footer-1 h5 {
     font-size: 20px;
