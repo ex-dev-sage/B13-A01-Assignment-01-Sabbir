@@ -65,7 +65,7 @@ nav .btn-1 {
 .container {
     min-height: 674px;
     text-align: center;
-    background-image: url('/assets/hero-bg2.png');
+    background-image: url('../assets/hero-bg2.png');
     background-size: cover;
     background-position: center;
     display: flex;
