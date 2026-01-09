@@ -315,6 +315,10 @@ nav .btn-1 {
     text-decoration: none;
     color: #ffffff;
 }
+.btn-4:hover{
+    background-color: #187940;
+    box-shadow: 0 0 8px #187940;
+}
 .content-btn-4 p{
     font-size: 16;
     color: #627382;
